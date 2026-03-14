@@ -1,6 +1,18 @@
 [package]
 name = "Eid-Mubarak"
 version = "0.1.0"
+license = "MIT OR Apache-2.0"
 edition = "2024"
+authors = ["Sharaf Eddine Belhadj sharafeddinebelahdj@email.com"]
+description = "A tool to search files"
+readme = "README.md"
+homepage = "https://github.com/CharafEB/Eid-Mubarak"
+repository = "https://github.com/CharafEB/Eid-Mubarak"
+keywords = ["cli", "search", "demo"]
+categories = ["command-line-utilities"]
+
 
 [dependencies]
+anyhow = "1.0.102"
+clap = { version = "4.0", features = ["derive"] }
+parse = "0.1.2"
