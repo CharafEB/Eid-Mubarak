@@ -346,8 +346,8 @@ dependencies = [
 ]
 
 [[package]]
-name = "eid-mubarak"
-version = "0.1.0"
+name = "eid-mubarakc"
+version = "0.1.1"
 dependencies = [
  "anyhow",
  "crossterm",

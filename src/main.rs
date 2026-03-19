@@ -153,7 +153,7 @@ fn process_video_frames(video_path: &str) -> Result<()> {
 }
 
 fn main() {
-    if let Err(e) = process_video_frames("/assets/zino_nhar_lyome.mp4") {
+    if let Err(e) = process_video_frames("zino_nhar_lyome.mp4") {
         println!("Error: {}", e);
     }
 }   
